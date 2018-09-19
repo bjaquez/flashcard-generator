@@ -30,10 +30,10 @@ inquirer.prompt([
         
 ]).then(function(answers){
     if(answers.cardAnswer === card.cloze){
-        console.log("correct!");
+        console.log("Correct!");
     }
     else{
-        console.log("incorrect, the correct answer is " + card.cloze);
+        console.log("Incorrect, the correct answer is " + card.cloze);
     }
     count++;
     if(count < allCards.length){
